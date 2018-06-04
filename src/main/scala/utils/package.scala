@@ -20,7 +20,7 @@ package object utils {
       return base64Mappings(((firstValue << 2) * 64) + ((secondValue & 3) << 4))
     }
 
-    val groupings = new ParVector(input.grouped(3)[Vector])
+    val groupings = new ParVector(input.grouped(3).to[Vector])
 
     val baseString = groupings.map(processString).mkString
 
@@ -31,5 +31,29 @@ package object utils {
     val paddings = "=" * paddingAmount
 
     s"$baseString$paddings"
+  }
+
+  val hexChars = "0123456789abcdef"
+  val xorMappings = (for {
+    a <- hexChars
+  } yield {
+    val aInt = Integer.parseInt(a.toString, 16)
+    val subMap = (for { b <- hexChars } yield {
+      val bInt = Integer.parseInt(b.toString, 16)
+      val value = (aInt ^ bInt).toHexString
+      (b -> value)
+    }).toMap
+
+    (a -> subMap)
+  }).toMap
+
+  def bufferXor(a: String, b: String) = {
+    if (a.length == b.length) {
+      (for {
+        (first, second) <- a.toList.zip(b.toList)
+      } yield xorMappings(first)(second)).mkString
+    } else {
+      throw new Error("argument lengths did not match")
+    }
   }
 }
