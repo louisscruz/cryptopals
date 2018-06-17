@@ -83,4 +83,14 @@ package object utils {
   def deceipherXor(input: String) = {
     (0 to 127).par.map(el => bufferXor(input, el.toChar)).maxBy(englishAnalysisScore)
   }
+
+  def detectSingleCharXor(input: List[String]) = {
+    input.par.map(line => {
+      val responses = (0 to 127).par.map(el => bufferXor(line, el.toChar))
+      responses.foldLeft((responses.head, englishAnalysisScore(responses.head)))((a, b) => {
+        val nextVal = (b, englishAnalysisScore(b))
+        if (a._2 > nextVal._2) a else nextVal
+      })
+    }).maxBy(_._2)._1
+  }
 }

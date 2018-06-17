@@ -2,6 +2,8 @@ package utils
 
 import org.scalatest.FunSpec
 
+import scala.io.Source
+
 class UtilsSpec extends FunSpec {
   describe("hexToBase64") {
     describe("when the passed input's length modulo six is not zero") {
@@ -101,6 +103,13 @@ class UtilsSpec extends FunSpec {
         val input = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
         assert(deceipherXor(input) == "Cooking MC's like a pound of bacon")
       }
+    }
+  }
+
+  describe("detectSingleCharXor") {
+    it("returns the correct string") {
+      val lines = Source.fromFile("src/test/scala/utils/detect-single-character-xor-strings.txt").getLines.toList
+      assert(detectSingleCharXor(lines) == "Now that the party is jumping\n")
     }
   }
 }
