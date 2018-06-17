@@ -62,7 +62,7 @@ package object utils {
   def bufferXor(a: String, b: String) = {
     if (a.length == b.length) {
       (for {
-        (first, second) <- a.toList.zip(b.toList)
+        (first, second) <- a.toList.zip(b.toList).par
       } yield xorMappings(first)(second)).mkString
     } else {
       throw new Error("argument lengths did not match")
@@ -92,5 +92,32 @@ package object utils {
         if (a._2 > nextVal._2) a else nextVal
       })
     }).maxBy(_._2)._1
+  }
+
+  def stringToHex(input: String): String = {
+    input.toList.map(el => {
+      val response = el.toInt.toHexString
+      if (response.length % 2 == 0) response else s"0$response"
+    }).mkString
+  }
+
+  def repeatingKeyXor(a: String, b: String): String = {
+    def repeatString(input: String): String = {
+      if (input.length == a.length) {
+        return input
+      } else if (input.length < a.length) {
+        val multiplier = Math.ceil(a.length / input.length.toFloat).toInt
+        return (input * multiplier).take(a.length)
+      } else {
+        return input.take(a.length)
+      }
+    }
+
+    val repeatedKey = repeatString(b)
+
+    val input = stringToHex(a)
+    val key = stringToHex(repeatedKey)
+
+    bufferXor(input, key)
   }
 }

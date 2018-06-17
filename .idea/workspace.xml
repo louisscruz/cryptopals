@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a97009-b1d9-4d1e-b4b8-6deef9c34c49" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7322332388c8d10a9fa1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7322332388c8d10a9fa1.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7322332388c8d10a9fa1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/utils/package.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/utils/package.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/utils/utils-worksheet.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/utils/worksheet.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/utils/worksheet.sc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/utils/package$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/utils/package$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/utils/package.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/utils/package.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/utils/utils-worksheet.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/utils/UtilsSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/utils/UtilsSpec.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="package.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/utils/package.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1116">
-              <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
+            <state relative-caret-position="289">
+              <caret line="69" column="3" lean-forward="true" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -41,8 +39,8 @@
       <file leaf-file-name="worksheet.sc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/utils/worksheet.sc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -50,8 +48,8 @@
       <file leaf-file-name="UtilsSpec.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1146">
-              <caret line="108" column="35" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+            <state relative-caret-position="752">
+              <caret line="117" column="19" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="94" />
               <folding>
                 <element signature="e#15#43#0" expanded="true" />
               </folding>
@@ -87,8 +85,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/cryptopals/utils.sc" />
         <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/src/main/scala/utils/detect-single-character-xor-strings" />
-        <option value="$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/utils/utils-worksheet.sc" />
+        <option value="$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/utils/worksheet.sc" />
         <option value="$PROJECT_DIR$/src/main/scala/utils/package.scala" />
       </list>
@@ -104,7 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,7 +161,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -301,34 +299,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UtilsSpec - 2018.06.17 at 12h 45m 48s.xml">
+    <history-entry file="UtilsSpec - 2018.06.17 at 15h 11m 21s.xml">
       <configuration name="UtilsSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="UtilsSpec - 2018.06.17 at 12h 46m 53s.xml">
+    <history-entry file="UtilsSpec - 2018.06.17 at 15h 12m 36s.xml">
       <configuration name="UtilsSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="UtilsSpec - 2018.06.17 at 12h 47m 13s.xml">
+    <history-entry file="UtilsSpec - 2018.06.17 at 15h 13m 34s.xml">
       <configuration name="UtilsSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="UtilsSpec - 2018.06.17 at 12h 55m 18s.xml">
+    <history-entry file="UtilsSpec - 2018.06.17 at 15h 16m 48s.xml">
       <configuration name="UtilsSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="UtilsSpec - 2018.06.17 at 12h 56m 08s.xml">
+    <history-entry file="UtilsSpec - 2018.06.17 at 15h 24m 02s.xml">
       <configuration name="UtilsSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="UtilsSpec - 2018.06.17 at 12h 56m 30s.xml">
+    <history-entry file="UtilsSpec - 2018.06.17 at 15h 24m 25s.xml">
       <configuration name="UtilsSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="UtilsSpec - 2018.06.17 at 12h 56m 59s.xml">
+    <history-entry file="UtilsSpec - 2018.06.17 at 15h 33m 52s.xml">
       <configuration name="UtilsSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="UtilsSpec - 2018.06.17 at 12h 57m 13s.xml">
+    <history-entry file="UtilsSpec - 2018.06.17 at 15h 34m 33s.xml">
       <configuration name="UtilsSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="UtilsSpec - 2018.06.17 at 13h 31m 46s.xml">
+    <history-entry file="UtilsSpec - 2018.06.17 at 15h 35m 11s.xml">
       <configuration name="UtilsSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="UtilsSpec - 2018.06.17 at 13h 32m 43s.xml">
+    <history-entry file="UtilsSpec - 2018.06.17 at 15h 37m 52s.xml">
       <configuration name="UtilsSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
@@ -338,19 +336,19 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.22478387" />
+      <window_info active="true" anchor="bottom" id="Messages" order="5" visible="true" weight="0.22478387" />
       <window_info anchor="right" id="sbt" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.15561959" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.28386167" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.271875" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24609375" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="2" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -359,19 +357,178 @@
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.3296593" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="0" weight="0.31772333" />
       <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.271875" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="sbt" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="2" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.3296593" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.15561959" />
+      <window_info anchor="bottom" id="Build" order="0" weight="0.31772333" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.22478387" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" order="6" weight="0.4" />
+      <window_info id="Designer" order="0" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/worksheet.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="35" lean-forward="true" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="89" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="89" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/utils-worksheet.sc" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="35" lean-forward="true" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/utils-worksheet.sc" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="63" column="25" lean-forward="true" selection-start-line="63" selection-start-column="25" selection-end-line="63" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/utils-worksheet.sc" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/utils-worksheet.sc" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="55" lean-forward="true" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/utils-worksheet.sc" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cryptopals/package.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/cryptopals/utils.sc" />
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/detect-single-character-xor-strings.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/utils-worksheet.sc" />
+    <entry file="file://$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="96" column="56" lean-forward="true" selection-start-line="96" selection-start-column="56" selection-end-line="96" selection-end-column="56" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/worksheet.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/utils/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/utils/package.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
@@ -493,15 +650,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/utils/utils-worksheet.sc" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/utils/worksheet.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/utils/UtilsSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1146">
-          <caret line="108" column="35" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+        <state relative-caret-position="752">
+          <caret line="117" column="19" selection-start-line="117" selection-start-column="19" selection-end-line="117" selection-end-column="94" />
           <folding>
             <element signature="e#15#43#0" expanded="true" />
           </folding>
@@ -510,8 +667,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/utils/package.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
-          <caret line="87" column="14" selection-start-line="87" selection-start-column="14" selection-end-line="87" selection-end-column="14" />
+        <state relative-caret-position="289">
+          <caret line="69" column="3" lean-forward="true" selection-start-line="69" selection-start-column="3" selection-end-line="69" selection-end-column="3" />
         </state>
       </provider>
     </entry>
