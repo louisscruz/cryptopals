@@ -70,5 +70,37 @@ class UtilsSpec extends FunSpec {
         assert(bufferXor(firstInput, secondInput) == output)
       }
     }
+
+    describe("when passed a String and a single Char") {
+      it("returns the correct value") {
+        val inputString = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
+        val inputChar = 'a'
+        val output = "zVVRPW^\u0019tz\u001EJ\u0019UPR\\\u0019X\u0019IVLW]\u0019V_\u0019[XZVW"
+        assert(bufferXor(inputString, inputChar) == output)
+      }
+    }
+  }
+
+  describe("englishAnalysisScore") {
+    describe("when passed a single word") {
+      it("returns a higher value for an english word") {
+        val nonsenseScore = englishAnalysisScore("aofjeiwlfjdkslfj")
+        assert(englishAnalysisScore("sentimental") > nonsenseScore)
+      }
+
+      it("returns a higher value for an english sentence") {
+        val nonsenseScore = englishAnalysisScore("a f feowijef fdoijs elkfjqwe f doijf")
+        assert(englishAnalysisScore("A small brow fox when running through the woods.") > nonsenseScore)
+      }
+    }
+  }
+
+  describe("deceipherXorCipher") {
+    describe("when passed a string and a single character") {
+      it("returns the correct value") {
+        val input = "1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736"
+        assert(deceipherXor(input) == "Cooking MC's like a pound of bacon")
+      }
+    }
   }
 }

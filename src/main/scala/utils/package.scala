@@ -6,6 +6,18 @@ package object utils {
     c1 <- base64Chars
     c2 <- base64Chars
   } yield s"$c1$c2"
+  val englishLikelihood = Map[Char, Int](
+    ' ' -> 40,
+    'e' -> 12,
+    't' -> 8,
+    'a' -> 8,
+    'o' -> 7,
+    'i' -> 7,
+    'n' -> 7,
+    's' -> 6,
+    'h' -> 6,
+    'r' -> 6
+  )
 
   def hexToBase64(input: String): String = {
     // Pad non-even inputs with a preceding zero.
@@ -55,5 +67,20 @@ package object utils {
     } else {
       throw new Error("argument lengths did not match")
     }
+  }
+
+  def bufferXor(a: String, b: Char) = {
+    a.grouped(2).map(el => (Integer.parseInt(el, 16) ^ b.toInt).toChar).mkString
+  }
+
+  def englishAnalysisScore(input: String): Float = {
+    input.map(el => englishLikelihood.get(Character.toLowerCase(el)) match {
+      case Some(x) => x
+      case None => 0
+    }).sum / input.length.asInstanceOf[Float]
+  }
+
+  def deceipherXor(input: String) = {
+    (0 to 127).par.map(el => bufferXor(input, el.toChar)).maxBy(englishAnalysisScore)
   }
 }
